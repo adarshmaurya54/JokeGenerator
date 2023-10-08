@@ -1,5 +1,5 @@
 // Import the configuration
-import config from './config.js';
+import config from './config.sample.js';
 
 // Access API key
 const apiKey = config.apiKey;
