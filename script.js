@@ -1,4 +1,8 @@
-const apiKey = "afa105c554383bfdb9954973bcbd";
+// Import the configuration
+import config from './config.js';
+
+// Access API key
+const apiKey = config.apiKey;
 document.querySelector(".joke-content .content").innerText="Please wait 😂😁";
 fetch(`https://hindi-jokes-api.onrender.com/jokes?api_key=${apiKey}`)
 .then(response => {
